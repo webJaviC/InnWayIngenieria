@@ -2,32 +2,32 @@
 "cliente":[
     {
         "_id": 1,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     },
     {
         "_id": 2,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     },
     {
         "_id": 3,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     },
     {
         "_id": 4,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     },
     {
         "_id": 5,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     },
     {
         "_id": 6,
-    "image":"https://i.postimg.cc/Fs03hQDt/Collectivities-Party.jpg",
+    "image":"./assets/image/cliente.png",
     "name":"El nato"
     }
 ],
@@ -35,55 +35,55 @@
     {
         "_id":1,
         "name":"Instalaciones",
-        "image":"./assets/instalaciones.png",
+        "image":"./assets/image/instalaciones.png",
         "description":"instalaciones eléctricas industriales con todos los requerimientos del cliente y cumpliendo con todas las normas "
     },
     {
         "_id":2,
         "name":"Potencia",
-        "image":"./assets/potencia.png",
+        "image":"./assets/image/potencia.png",
         "description":"es"
     },
     {
         "_id":3,
         "name":"Vida útil",
-        "image":"./assets/vida.png",
+        "image":"./assets/image/vida.png",
         "description":"mantenimiento preventivo para garantigar el mayor tiempo posible de vida útil de los componentes y de la maquinaria de la organización"
     },
     {
         "_id":4,
         "name":"Protecciones",
-        "image":"./assets/protecciones.png",
+        "image":"./assets/image/protecciones.png",
         "description":"Instalamos protecciones eléctricas para garantizar el buen funcionamiento de cada herramienta de la orgsanización y tambien prolongar su vida útil"
     },
     {
         "_id":5,
         "name":"Energías renovables",
-        "image":"./assets/renovables.png",
+        "image":"./assets/image/renovables.png",
         "description":"en innwai apostamos a las energías renovables"
     },
     {
         "_id":6,
         "name":"Potencia",
-        "image":"./assets/potencia.png",
+        "image":"./assets/image/potencia.png",
         "description":""
     },
     {
         "_id":7,
         "name":"Puesta a tierra",
-        "image":"./assets/tierra.png",
+        "image":"./assets/image/tierra.png",
         "description":"Realizamos la puesta a tierra de su organizacion"
     },
     {
         "_id":8,
         "name":"Tiempo",
-        "image":"./assets/tierra.png",
+        "image":"./assets/image/tierra.png",
         "description":"es"
     },
     {
         "_id":9,
         "name":"Eficiencia",
-        "image":"./assets/eficiencia.png",
+        "image":"./assets/image/eficiencia.png",
         "description":"aseguramos la eficiencia"
     }
 ]

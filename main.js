@@ -29,22 +29,13 @@ const crearCards=(array, conteiner) =>{
   
       array.forEach((evento) => {
         cards += `<div class="card" style="width: 16rem;">
-        <img src=${evento.image} class="card-img-top" alt="..." style="height: 11rem;"></img>
+        <a href="./details.html?id=${evento._id}" class="btn btn-primary"><img src=${evento.image} class="card-img-top" alt="..." style="height: 11rem;"></img></a>
         <div class="card-body">
           <h5 class="card-title">${evento.name}</h5>
-          
           </div>
-          
-          <div>
-          <a href="./details.html?id=${evento._id}" class="btn btn-primary ">Details</a>
-          
-        </div>
-      </div>`
+          </div>`
       })
   
         
     conteiner.innerHTML = cards
   }
-//   const boxClientes= document.getElementById('boxClientes');
-//   const boxServicios= document.getElementById('boxServicios');
-//  crearCards(clientes)

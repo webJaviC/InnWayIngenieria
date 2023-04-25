@@ -1,3 +1,6 @@
+*{
+    font-family:cursive,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
 background: #012557;
 background: -webkit-radial-gradient(right, #012557, #010101);
@@ -5,12 +8,21 @@ background: -moz-radial-gradient(right, #012557, #010101);
 background: radial-gradient(to left, #012557, #010101);
 }
 .navegador{
+    background-color: grey;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .nav-link {
-    color: whitesmoke;
+    color: black;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+}
+#titulo{
+    text-align: center;
+    color:rgb(239, 243, 9);
 }
 .boxServicios{
     height: auto;
@@ -27,18 +39,63 @@ background: radial-gradient(to left, #012557, #010101);
     justify-content: center;
     flex-wrap: wrap;
 }
-#card{
+.btn{
+    background-color: #021836;
+}
+.card{
     height: 20rem;
-    margin: 10px;
-    padding: 10px;
+    margin: 3px;
+    padding: 3px;
     border: #010101;
     border-radius: 20px;
-    border-color: red;
+    
     color: white;
    background-color: gray;
-    padding: 10px;
-    margin: 20px;
+    
     display: flex;
     align-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     }
+    .card-title{
+        text-align: center;
+    }
+.card{
+    background-color: transparent !important;
+}
+.contQuienes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contQuienesSomos{
+width: 60%;
+}
+
+.somos{
+    color: white;
+}
+.boxFormulario{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    color: white;
+border-radius: 10px;
+border-style: solid;
+border-color: rgb(219, 212, 212);
+width: 20rem;
+height: 25rem;
+display: flex;
+align-items: center;
+justify-content: centers;
+flex-direction: column;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
