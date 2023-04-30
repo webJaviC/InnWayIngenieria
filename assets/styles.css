@@ -1,5 +1,5 @@
 *{
-    font-family:cursive,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
 background: #012557;
@@ -22,7 +22,7 @@ background: radial-gradient(to left, #012557, #010101);
 }
 #titulo{
     text-align: center;
-    color:rgb(239, 243, 9);
+    color:grey;
 }
 .boxServicios{
     height: auto;
@@ -43,15 +43,12 @@ background: radial-gradient(to left, #012557, #010101);
     background-color: #021836;
 }
 .card{
+    border-color: transparent !important;
     height: 20rem;
     margin: 3px;
     padding: 3px;
-    border: #010101;
-    border-radius: 20px;
-    
     color: white;
-   background-color: gray;
-    
+    background-color: gray;
     display: flex;
     align-content: space-around;
     justify-content: center;
@@ -59,6 +56,11 @@ background: radial-gradient(to left, #012557, #010101);
     }
     .card-title{
         text-align: center;
+        color: grey;
+    }
+    .card-img-top{
+        background-color: rgb(5, 89, 128);
+        border-radius: 3%;
     }
 .card{
     background-color: transparent !important;
@@ -94,8 +96,26 @@ justify-content: centers;
 flex-direction: column;
 
 }
+.contentDescripcion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.descripcion{
+    margin: 6rem;
+    height: 20rem;
+    border-radius: 15px;
+    
+    border-color: grey;
+    width: 50%;
+    color: grey;
+    background-color: rgb(5, 89, 128);
+    display: flex;
+    justify-content: center;
+}
 .footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }

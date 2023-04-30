@@ -6,42 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
-    <title>Detalles</title>
+    <title>Descripcion</title>
 </head>
 <body>
     <section class="navegador">
-        <div >
-          <img src="./assets/INWAY_INGENIERIA.png" alt="">
+      <div >
+        <img class="logo" src="./assets/image/recurso1.png" alt="">
+      </div>
+        <div class="collapse " id="navbarToggleExternalContent">
+          <div class="bg-grey">
+            
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clientes">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav class="navbar navbar-expand-lg  ">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#servicios">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#clientes">Clientes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="./contact.html">Contacto</a>
-                      </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </section>
-        <main>
-          <div class="descripcion">
+        <nav class="navbar navbar-primary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             
           </div>
+        </nav>
+        </section>
+        <main>
+          <section class="contentDescripcion">
+          <div id="descripcion" class="descripcion">
+            
+          </div>
+        </section>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="./descripcion.js"></script>
 </body>
 </html>

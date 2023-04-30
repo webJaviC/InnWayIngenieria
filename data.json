@@ -34,25 +34,25 @@
 "servicio":[
     {
         "_id":1,
-        "name":"Instalaciones",
+        "name":"Instalaciones eléctricas",
         "image":"./assets/image/instalaciones.png",
         "description":"instalaciones eléctricas industriales con todos los requerimientos del cliente y cumpliendo con todas las normas "
     },
     {
         "_id":2,
-        "name":"Potencia",
+        "name":"Correcciones de factor de potencia",
         "image":"./assets/image/potencia.png",
         "description":"es"
     },
     {
         "_id":3,
-        "name":"Vida útil",
+        "name":"Aumento de vida útil de maquinarias",
         "image":"./assets/image/vida.png",
-        "description":"mantenimiento preventivo para garantigar el mayor tiempo posible de vida útil de los componentes y de la maquinaria de la organización"
+        "description":"Mantenimiento preventivo para garantigar el mayor tiempo posible de vida útil de los componentes y de la maquinaria de la organización"
     },
     {
         "_id":4,
-        "name":"Protecciones",
+        "name":"Coordinación de protecciones",
         "image":"./assets/image/protecciones.png",
         "description":"Instalamos protecciones eléctricas para garantizar el buen funcionamiento de cada herramienta de la orgsanización y tambien prolongar su vida útil"
     },
@@ -60,13 +60,13 @@
         "_id":5,
         "name":"Energías renovables",
         "image":"./assets/image/renovables.png",
-        "description":"en innwai apostamos a las energías renovables"
+        "description":"En innwai apostamos a las energías renovables"
     },
     {
         "_id":6,
-        "name":"Potencia",
-        "image":"./assets/image/potencia.png",
-        "description":""
+        "name":"Mediciones eléctricas",
+        "image":"./assets/image/medicion.png",
+        "description":"Realizamos las mediciones pertinentes"
     },
     {
         "_id":7,
@@ -76,15 +76,21 @@
     },
     {
         "_id":8,
-        "name":"Tiempo",
-        "image":"./assets/image/tierra.png",
-        "description":"es"
+        "name":"Analisis de demanda de tiempo",
+        "image":"./assets/image/tiempo.png",
+        "description":"Analizamos la elasticidad de la demanda electrica"
     },
     {
         "_id":9,
-        "name":"Eficiencia",
+        "name":"Eficiencia energética en cargas más relevantes",
         "image":"./assets/image/eficiencia.png",
-        "description":"aseguramos la eficiencia"
+        "description":"Aseguramos la eficiencia"
+    },
+    {
+        "_id":10,
+        "name":"Mantenimiento para reducir paradas innecesarias",
+        "image":"./assets/image/mantenimiento.png",
+        "description":"Levamos al cavo el mantenimiento necesario en su empresa para reducir paradas innecesarias y maximizar la produccion de su empresa"
     }
 ]
 }

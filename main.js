@@ -6,6 +6,7 @@ const dataJson = async () => {
     let data = await response.json();
     let cliente = await data.cliente;
     let servicio = await data.servicio;
+    console.log(data.servicio);
     const boxClientes= document.getElementById('boxClientes');
     const boxServicios= document.getElementById('boxServicios');
     crearCards(cliente, boxClientes);
@@ -29,7 +30,7 @@ const crearCards=(array, conteiner) =>{
   
       array.forEach((evento) => {
         cards += `<div class="card" style="width: 16rem;">
-        <a href="./details.html?id=${evento._id}" class="btn btn-primary"><img src=${evento.image} class="card-img-top" alt="..." style="height: 11rem;"></img></a>
+        <a href="./descripcion.html?id=${evento._id}" class="btn btn-primary"><img src=${evento.image} class="card-img-top" alt="..." style="height: 11rem;width: 14rem;"></img></a>
         <div class="card-body">
           <h5 class="card-title">${evento.name}</h5>
           </div>
