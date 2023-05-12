@@ -3,32 +3,44 @@
     {
         "_id": 1,
     "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "name":"El Nato SRL.",
+    "ubicacion":"Llambi Campbell"
     },
     {
         "_id": 2,
-    "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "image":"./assets/image/bernardi.png",
+    "name":"Bernardi Agroprocesos",
+    "ubicacion":"Llambi Campbell"
     },
     {
         "_id": 3,
     "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "name":"Zoovet Productos Veterinarios SA",
+    "ubicacion":"Santa Fe"
     },
     {
         "_id": 4,
     "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "name":" Frigorífico Las Kañitas SRL",
+    "ubicacion":"San Carlos Sud"
     },
     {
         "_id": 5,
     "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "name":" Municipalidad de Helvecia",
+    "ubicacion":"Helvecia"
     },
     {
         "_id": 6,
     "image":"./assets/image/cliente.png",
-    "name":"El nato"
+    "name":"Tambo Las Flores",
+    "ubicacion":"Castelar"
+    },
+    {
+        "_id": 7,
+    "image":"./assets/image/frem.jpg",
+    "name":"Frem construcciones",
+    "ubicacion":"Santa Fe"
     }
 ],
 "servicio":[

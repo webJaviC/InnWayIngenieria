@@ -28,7 +28,7 @@ background: radial-gradient(to left, #012557, #010101);
     height: auto;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .boxClientes{
@@ -115,7 +115,7 @@ flex-direction: column;
 }
 .footer{
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    
-}
+    }
