@@ -2,6 +2,7 @@
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
+    
 background: #012557;
 background: -webkit-radial-gradient(right, #012557, #010101);
 background: -moz-radial-gradient(right, #012557, #010101);
@@ -14,7 +15,7 @@ background: radial-gradient(to left, #012557, #010101);
     flex-wrap: wrap;
 }
 .nav-link {
-    color: black;
+    color: #02184d
 }
 .logo{
     height: 50px;
@@ -22,25 +23,37 @@ background: radial-gradient(to left, #012557, #010101);
 }
 #titulo{
     text-align: center;
+    color:#3ece2b;
+}
+.subtitulo{
     color:grey;
 }
-.boxServicios{
-    height: auto;
-    width: 100%;
+.boxes{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxServicios{
+   
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .boxClientes{
     height: auto;
-    width: 100%;
+    width: 80%;
     margin: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .btn{
-    background-color: #021836;
+    background-color: #adafb1;
 }
 .card{
     border-color: transparent !important;
@@ -62,6 +75,9 @@ background: radial-gradient(to left, #012557, #010101);
         background-color: rgb(5, 89, 128);
         border-radius: 3%;
     }
+   #logoCliente{
+background-color: white;
+   }
 .card{
     background-color: transparent !important;
 }
@@ -72,15 +88,23 @@ background: radial-gradient(to left, #012557, #010101);
 }
 .contQuienesSomos{
 width: 60%;
+margin:5rem;
 }
 
 .somos{
     color: white;
+    text-align: justify;
+}
+.somos-unase{
+    color: white;
+    text-align: center;
 }
 .boxFormulario{
     
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .formulario{
@@ -88,12 +112,37 @@ width: 60%;
 border-radius: 10px;
 border-style: solid;
 border-color: rgb(219, 212, 212);
-width: 20rem;
+width: 50rem;
 height: 25rem;
+margin: 5rem;
 display: flex;
 align-items: center;
 justify-content: centers;
 flex-direction: column;
+
+}
+.qr-dir{
+    margin: 1rem;
+    border-radius: 4%;
+    height: 12.5rem;
+    width: 12.5rem;
+}
+.map{
+    margin: 1rem;
+    border-radius: 4%;
+}
+.direccion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+.sitio{
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 .contentDescripcion{
@@ -102,20 +151,70 @@ flex-direction: column;
     flex-wrap: wrap;
 }
 .descripcion{
-    margin: 6rem;
-    height: 20rem;
+    margin: 10rem;
+    height: 70rem;
+     
     border-radius: 15px;
     
     border-color: grey;
-    width: 50%;
-    color: grey;
+    width: 60%;
+    color: rgb(128, 128, 128);
     background-color: rgb(5, 89, 128);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.footer{
+.caruselDetail{
+    width: 20rem;
+    height: 20rem;
+}
+.textDetail{
+    padding-top: 1rem;
+    text-align: justify;
+}
+.titleDetail{
+    color: #3ece2b;
+}
+.imageDetail{   
+    border_redius: 10px;
+    height: 30rem;
+    width: 48rem;
+    padding-top: 1rem;
+}
+.boxDetail{
     display: flex;
-    text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+.footer{
+    color: #4779ee;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+.email-img{
+    width: 4rem;
+    height: 4rem;
+}
+.cont-email{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxEmail{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.btn-whats{
+    
+    position: fixed;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 1rem;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: green;
+    color: white;
     }

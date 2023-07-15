@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/image/recurso1.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
     <title>Contacto</title>
 </head>
 <body>
-    <section class="navegador">
-      <div >
-        <img class="logo" src="./assets/image/recurso1.png" alt="">
-      </div>
-        <div class="collapse " id="navbarToggleExternalContent">
-          <div class="bg-grey">
-            
-            <ul class="nav flex-column">
+  <section class="navegador">
+    <nav class="navbar navbar-dark bg-secondary  fixed-top">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img class="logo" src="./assets/image/recurso1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-secondary">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./index.html?#servicios">Servicios</a>
@@ -30,45 +37,76 @@
                 <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link  active" href="#">Contacto</a>
               </li>
+              
             </ul>
-          </div>
-        </div>
-        <nav class="navbar navbar-primary">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
             
           </div>
-        </nav>
-        </section>
+        </div>
+      </div>
+    </nav>
+     </section>
+    
         <main>
+          <section>
           <div class="boxFormulario">
+           
             <form action="https://formsubmit.co/javicairoli3@gmail.com" method="POST" class="formulario">
-               <label for="name" class="form-label">nombre</label>
+               <label for="name" class="form-label">Nombre y Apellido</label>
                 <input type="text" class="form-control" id="name" placeholder="name" name="name">
 
-                <label for="exampleFormControlInput1" class="form-label">asunto</label>
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
                 <input type="text" class="form-control" id="name" placeholder="asunto" name="subject">
            
             
-                <label for="exampleFormControlInput1" class="form-label">ejemplo@email.com</label>
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
               
               
-                <label for="coments" class="form-label">Example textarea</label>
+                <label for="coments" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
            
                 <button type="button" class="btn btn-info">enviar</button>
               </form>
+            </section>
               <section class="sitio">
+                <div>
+                <h5 class="encontranos">Nos encontramos en:</h5>
+                </div>
+                <div class="direccion">
+                 <img src="./assets/image/direccion.png" alt="" class="qr-dir">
+                
+                <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3397.481991313191!2d-60.684999!3d-31.620650999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDM3JzE0LjMiUyA2MMKwNDEnMDYuMCJX!5e0!3m2!1ses-419!2sar!4v1683902510885!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 
 
               </section>
         </main>
-
+        <footer >
+          <div class="footer ">
+            <div>
+            <h4>Contacto</h4>
+            <div class="cont-email">
+              <div class="boxEmail">
+            <p>Mail Oficina Comercial:</p>
+            <a href="mailto:comercial@innwayingenieria.com" class="mail"><img src="./assets/image/email.png" alt="" class="email-img"></a>
+              </div>
+              <hr width="3" size="100" color="secondary">
+              <div class="boxEmail">
+            <p>Mail Administración:</p>
+            <a href="mailto:administracion@innwayingenieria.com" class="mail"><img src="./assets/image/email.png" alt="" class="email-img"></a>
+              </div>
+              <hr width="3" size="100" color="secondary">
+              <div class="boxEmail">
+            <p> Mail Oficina Técnica:</p>
+            <a href="mailto:oficinatecnica@innwayingenieria.com" class="mail"><img src="./assets/image/email.png" alt="" class="email-img"></a>
+            </div>
+          </div>
+    
+          </div>
+        </div>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

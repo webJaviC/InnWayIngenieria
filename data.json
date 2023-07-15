@@ -1,108 +1,104 @@
 {
-"cliente":[
-    {
-        "_id": 1,
-    "image":"./assets/image/cliente.png",
-    "name":"El Nato SRL.",
-    "ubicacion":"Llambi Campbell"
-    },
-    {
-        "_id": 2,
-    "image":"./assets/image/bernardi.png",
-    "name":"Bernardi Agroprocesos",
-    "ubicacion":"Llambi Campbell"
-    },
-    {
-        "_id": 3,
-    "image":"./assets/image/cliente.png",
-    "name":"Zoovet Productos Veterinarios SA",
-    "ubicacion":"Santa Fe"
-    },
-    {
-        "_id": 4,
-    "image":"./assets/image/cliente.png",
-    "name":" Frigorífico Las Kañitas SRL",
-    "ubicacion":"San Carlos Sud"
-    },
-    {
-        "_id": 5,
-    "image":"./assets/image/cliente.png",
-    "name":" Municipalidad de Helvecia",
-    "ubicacion":"Helvecia"
-    },
-    {
-        "_id": 6,
-    "image":"./assets/image/cliente.png",
-    "name":"Tambo Las Flores",
-    "ubicacion":"Castelar"
-    },
-    {
-        "_id": 7,
-    "image":"./assets/image/frem.jpg",
-    "name":"Frem construcciones",
-    "ubicacion":"Santa Fe"
-    }
-],
-"servicio":[
-    {
-        "_id":1,
-        "name":"Instalaciones eléctricas",
-        "image":"./assets/image/instalaciones.png",
-        "description":"instalaciones eléctricas industriales con todos los requerimientos del cliente y cumpliendo con todas las normas "
-    },
-    {
-        "_id":2,
-        "name":"Correcciones de factor de potencia",
-        "image":"./assets/image/potencia.png",
-        "description":"es"
-    },
-    {
-        "_id":3,
-        "name":"Aumento de vida útil de maquinarias",
-        "image":"./assets/image/vida.png",
-        "description":"Mantenimiento preventivo para garantigar el mayor tiempo posible de vida útil de los componentes y de la maquinaria de la organización"
-    },
-    {
-        "_id":4,
-        "name":"Coordinación de protecciones",
-        "image":"./assets/image/protecciones.png",
-        "description":"Instalamos protecciones eléctricas para garantizar el buen funcionamiento de cada herramienta de la orgsanización y tambien prolongar su vida útil"
-    },
-    {
-        "_id":5,
-        "name":"Energías renovables",
-        "image":"./assets/image/renovables.png",
-        "description":"En innwai apostamos a las energías renovables"
-    },
-    {
-        "_id":6,
-        "name":"Mediciones eléctricas",
-        "image":"./assets/image/medicion.png",
-        "description":"Realizamos las mediciones pertinentes"
-    },
-    {
-        "_id":7,
-        "name":"Puesta a tierra",
-        "image":"./assets/image/tierra.png",
-        "description":"Realizamos la puesta a tierra de su organizacion"
-    },
-    {
-        "_id":8,
-        "name":"Analisis de demanda de tiempo",
-        "image":"./assets/image/tiempo.png",
-        "description":"Analizamos la elasticidad de la demanda electrica"
-    },
-    {
-        "_id":9,
-        "name":"Eficiencia energética en cargas más relevantes",
-        "image":"./assets/image/eficiencia.png",
-        "description":"Aseguramos la eficiencia"
-    },
-    {
-        "_id":10,
-        "name":"Mantenimiento para reducir paradas innecesarias",
-        "image":"./assets/image/mantenimiento.png",
-        "description":"Levamos al cavo el mantenimiento necesario en su empresa para reducir paradas innecesarias y maximizar la produccion de su empresa"
-    }
-]
+    "cliente": [
+        {
+            "_id": 1,
+            "image": "./assets/image/cliente.png",
+            "name": "El Nato SRL.",
+            "ubicacion": "Llambi Campbell"
+        },
+        {
+            "_id": 2,
+            "image": "./assets/image/bernardi.png",
+            "name": "Bernardi Agroprocesos",
+            "ubicacion": "Llambi Campbell"
+        },
+        {
+            "_id": 3,
+            "image": "./assets/image/zoovet.png",
+            "name": "Zoovet Productos Veterinarios SA",
+            "ubicacion": "Santa Fe"
+        },
+        {
+            "_id": 4,
+            "image": "./assets/image/cliente.png",
+            "name": " Frigorífico Las Kañitas SRL",
+            "ubicacion": "San Carlos Sud"
+        },
+        {
+            "_id": 5,
+            "image": "./assets/image/logohelvecia.png",
+            "name": " Comuna de Helvecia",
+            "ubicacion": "Helvecia"
+        },
+        {
+            "_id": 6,
+            "image": "./assets/image/cliente.png",
+            "name": "Tambo Las Flores",
+            "ubicacion": "Castelar"
+        },
+        {
+            "_id": 7,
+            "image": "./assets/image/frem.jpg",
+            "name": "Frem construcciones",
+            "ubicacion": "Santa Fe"
+        }
+    ],
+    "servicio": [
+        {
+            "_id": 1,
+            "name": "Instalaciones eléctricas",
+            "image": "./assets/image/instalaciones.png",
+
+            "description": "Nuestro equipo altamente capacitado se encargará de realizar sus instalaciones eléctricas, diseñándolas para maximizar la eficiencia y la seguridad en su entorno. Garantizamos que todos nuestros trabajos cumplen con los estándares más rigurosos, proporcionando un rendimiento confiable y duradero."
+        },
+        {
+            "_id": 2,
+            "name": "Correcciones de factor de potencia",
+            "image": "./assets/image/potencia.png",
+            "description": "Optimice su eficiencia energética y reduzca los costos operativos corrigiendo el factor de potencia. Nuestros especialistas analizarán su sistema y diseñarán soluciones personalizadas para mejorar la utilización de la energía, reducir las pérdidas y evitar penalizaciones por bajo factor de potencia. Obtenga un mejor rendimiento de su red eléctrica con nuestras correcciones de factor de potencia."
+        },
+        {
+            "_id": 3,
+            "name": "Programas de mantenimiento",
+            "image": "./assets/image/vida.png",
+            "description": "Maximice la vida útil de sus maquinarias y asegure el funcionamiento ininterrumpido de sus instalaciones con nuestros programas de mantenimiento personalizados. Nuestro enfoque integral incluye estrategias proactivas, inspecciones regulares, mantenimiento preventivo y reparaciones oportunas para minimizar el desgaste, optimizar el rendimiento y reducir los costos de reemplazo. Confíe en nosotros para mantener su sistema en óptimas condiciones, minimizar el tiempo de inactividad y maximizar la productividad."
+        },
+        {
+            "_id": 4,
+            "name": "Coordinación de protecciones",
+            "image": "./assets/image/protecciones.png",
+            "description": "Con Innway Ingeniería, puede tener tranquilidad sabiendo que sus sistemas de protección están perfectamente coordinados. Implementamos tecnologías avanzadas para garantizar que sus equipos y circuitos estén protegidos de sobrecargas, cortocircuitos y otros eventos eléctricos adversos. Nuestra experiencia en este campo asegurará que su sistema funcione de manera segura y eficiente en todo momento."
+        },
+        {
+            "_id": 5,
+            "name": "Energías renovables",
+            "image": "./assets/image/renovables.png",
+            "description": "En Innway Ingeniería, nos enorgullece impulsar el cambio hacia un futuro más sostenible. Le ofrecemos soluciones de energía renovable adaptadas a sus necesidades, como la instalación de sistemas fotovoltaicos y eólicos. Al utilizar fuentes de energía limpias, no sólo reducirá su huella de carbono, sino que también se beneficiará de ahorros significativos a largo plazo."
+        },
+        {
+            "_id": 6,
+            "name": "Mediciones eléctricas",
+            "image": "./assets/image/medicion.png",
+            "image1" : "./assets/image/mediciones/mediciones1.jpg",
+            "description": "Entendemos la importancia de contar con mediciones eléctricas precisas y confiables para garantizar la eficiencia y seguridad de su sistema. Nuestro equipo de profesionales altamente capacitados utiliza instrumentos de última generación y está comprometido con la precisión en cada medición. Desde la resistencia de aislamiento hasta variables eléctricas como potencia, energía y cos fi, le brindamos resultados exhaustivos y detallados que le permiten tomar decisiones informadas para optimizar su sistema eléctrico. Su seguridad es nuestra prioridad, por lo que nuestras mediciones garantizan el cumplimiento de los estándares más estrictos y le brindan la tranquilidad de que su sistema está en manos expertas."
+        },
+        {
+            "_id": 7,
+            "name": "Puesta a tierra",
+            "image": "./assets/image/tierra.png",
+            "description": "La seguridad es nuestra prioridad número uno. Nuestros expertos se asegurarán de que su sistema eléctrico esté debidamente conectado a tierra, minimizando los riesgos de descargas eléctricas y protegiendo tanto a su personal como a sus equipos. Confíe en nosotros para proporcionar soluciones de puesta a tierra confiables y de alta calidad."
+        },
+        {
+            "_id": 8,
+            "name": "Análisis de demanda de tiempo",
+            "image": "./assets/image/tiempo.png",
+            "description": "Comprender las demandas eléctricas de su sistema a lo largo del tiempo es esencial para optimizar su rendimiento y evitar problemas futuros. En Innway Ingeniería, utilizamos técnicas avanzadas de análisis para evaluar las demandas eléctricas y brindarle recomendaciones precisas para mejorar la eficiencia y la confiabilidad de su sistema."
+        },
+        {
+            "_id": 9,
+            "name": "Eficiencia energética",
+            "image": "./assets/image/eficiencia.png",
+            "description": "Identificamos las cargas más relevantes en su sistema y desarrollamos estrategias específicas para mejorar su eficiencia energética. Desde la selección de equipos más eficientes hasta la implementación de controles inteligentes, maximizaremos el rendimiento de sus cargas críticas, reduciendo los costos operativos y minimizando el impacto ambiental."
+        }
+    ]
 }
