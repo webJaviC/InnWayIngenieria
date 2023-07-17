@@ -29,7 +29,7 @@ const crearCardsServicios=(array, conteiner) =>{
     }
   
       array.forEach((evento) => {
-        cards += `<div class="card" style="width: 16rem;">
+        cards += `<div class="card" style="width: 16rem">
         <a href="./descripcion.html?id=${evento._id}"  class="btn btn-secondary"><img src=${evento.image} class="card-img-top" alt="..." style="height: 11rem;width: 14rem;"></img></a>
         <div class="card-body">
           <h5 class="card-title">${evento.name}</h5>
@@ -50,10 +50,10 @@ const crearCardsServicios=(array, conteiner) =>{
     }
   
       array.forEach((evento) => {
-        cards += `<div class="card" style="width: 16rem;">
+        cards += `<div class="card cardClientes" style="width: 16rem;">
         <img src=${evento.image} class="card-img-top" id="logoCliente" alt="..." style="height: 11rem;width: 14rem; "></img>
         <div class="card-body">
-          <h5 class="card-title">${evento.name}</h5>
+          <h5 class="card-title titleCardClientes">${evento.name}</h5>
           </div>
           </div>`
       })

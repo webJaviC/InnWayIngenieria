@@ -21,12 +21,14 @@ background: radial-gradient(to left, #012557, #010101);
     height: 50px;
     width: 150px;
 }
+
 #titulo{
     text-align: center;
     color:#3ece2b;
 }
 .subtitulo{
-    color:grey;
+    font-size: 1.5rem;
+    color:rgb(216, 215, 215);
 }
 .boxes{
     display: flex;
@@ -34,6 +36,7 @@ background: radial-gradient(to left, #012557, #010101);
     flex-wrap: wrap;
 }
 .title{
+    font-size: 2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .boxServicios{
@@ -44,10 +47,16 @@ background: radial-gradient(to left, #012557, #010101);
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .boxClientes{
-    height: auto;
-    width: 80%;
+    border-radius: 15px;
+    background-color: #adafb1;
+    
+    height: au;
+    width: 90%;
     margin: 10px;
+    
+    padding: 3rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -81,6 +90,10 @@ background-color: white;
 .card{
     background-color: transparent !important;
 }
+.titleCardClientes{
+    
+    color: #012557;
+}
 .contQuienes{
     display: flex;
     justify-content: center;
@@ -108,7 +121,7 @@ margin:5rem;
 }
 
 .formulario{
-    color: white;
+color: white;
 border-radius: 10px;
 border-style: solid;
 border-color: rgb(219, 212, 212);
@@ -152,11 +165,11 @@ flex-direction: column;
 }
 .descripcion{
     margin: 10rem;
-    height: 70rem;
-     
+    height: 45rem;
+    border: 1px;
     border-radius: 15px;
-    
-    border-color: grey;
+    border-style: solid;
+    border-color: #3ece2b;
     width: 60%;
     color: rgb(128, 128, 128);
     background-color: rgb(5, 89, 128);
@@ -171,12 +184,15 @@ flex-direction: column;
 .textDetail{
     padding-top: 1rem;
     text-align: justify;
+    
 }
 .titleDetail{
+    font-size: 2rem;
     color: #3ece2b;
 }
 .imageDetail{   
-    border_redius: 10px;
+    
+    border-radius: 10px;
     height: 30rem;
     width: 48rem;
     padding-top: 1rem;

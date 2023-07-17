@@ -48,7 +48,7 @@
             "_id": 1,
             "name": "Instalaciones eléctricas",
             "image": "./assets/image/instalaciones.png",
-
+            "image1":"./assets/image/mediciones/mediciones1.jpg",
             "description": "Nuestro equipo altamente capacitado se encargará de realizar sus instalaciones eléctricas, diseñándolas para maximizar la eficiencia y la seguridad en su entorno. Garantizamos que todos nuestros trabajos cumplen con los estándares más rigurosos, proporcionando un rendimiento confiable y duradero."
         },
         {

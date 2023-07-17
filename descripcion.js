@@ -19,7 +19,7 @@ const dataJson = async () =>{
         <img src="${detail.image1}" class="d-block w-60 imageDetail"  alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-60 imageDetail" alt="...">
+        <img src="" class="d-block w-60 imageDetail" alt="...">
       </div>
       <div class="carousel-item">
         <img src="..." class="d-block w-60 imageDetail" alt="...">
