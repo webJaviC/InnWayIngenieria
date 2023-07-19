@@ -94,16 +94,39 @@ background-color: white;
     
     color: #012557;
 }
+
 .contQuienes{
+    margin-top: 6rem;
     display: flex;
-    justify-content: center;
+  justify-content: space-around;
+    
     flex-wrap: wrap;
 }
 .contQuienesSomos{
-width: 60%;
+width: 70%;
 margin:5rem;
 }
+.carruselQuienes{
+    height: 40rem;
+    width: 45%;
+ 
+}
+.boxImageQuienes{
+     width:55%;
+     
+}
+.imageQuienes{
+    height: 40rem;
+    
+   
+    
+    }
 
+.imageQuienesCarrusel{ 
+    height: 40rem;
+   
+}    
+   
 .somos{
     color: white;
     text-align: justify;
